@@ -98,8 +98,6 @@ Um die in den virtuellen Kursen erworbenen Kenntnisse zu üben und zu demonstrie
 
 ## Verwendete Technologien
 
-### Sprachen
-
 - **Sprachen:** EJS, CSS, JavaScript.
 - **Bemerkenswerte Abhängigkeiten (Node.js):** express, eslint, nodemon, mongoose, morgan und multer.
 

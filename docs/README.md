@@ -99,8 +99,6 @@ In order to practice and demonstrate the knowledge acquired in virtual classes, 
 
 ## Technologies Used
 
-### Languages
-
 - **Languages:** EJS, CSS, JavaScript.
 - **Notable Dependencies (Node.js):** express, eslint, nodemon, mongoose, morgan, and multer.
 

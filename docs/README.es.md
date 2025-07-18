@@ -84,8 +84,6 @@ criterios.
 
 ## Tecnologías Utilizadas
 
-### Lenguajes
-
 - **Lenguajes:** EJS, CSS, JavaScript.
 - **Dependencias a destacar (Node.js):** express, eslint, nodemon, mongoose, morgan y multer.
 
