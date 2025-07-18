@@ -1,12 +1,8 @@
 # Backend-Projektabgabe mit Node.js
 
-**KeepCoding-Projekte – Web 18**  
-Siehe die vollständige Liste der Repositories und Beschreibungen in 📁 [repos-kc-web-18.md](https://github.com/pablo-sch/pablo-sch/blob/main/docs/repos-kc-web-18.md)
+`>` **KeepCoding Projekte - Web 18:** 📁 [repos-kc-web-18.md](https://github.com/pablo-sch/pablo-sch/blob/main/docs/repos-kc-web-18.md)
 
-## Wähle deine Sprache
-
-- 🇺🇸 [Englisch](README.md)
-- 🇪🇸 [Spanisch](README.es.md)
+`>` **Wähle deine Sprache:** [Englisch](README.md) 🔄 [Spanish](README.es.md)
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
@@ -104,73 +100,55 @@ Um die in den virtuellen Kursen erworbenen Kenntnisse zu üben und zu demonstrie
 
 ### Sprachen
 
-- **EJS**: Template-Engine, die es ermöglicht, dynamische serverseitige Views durch Kombination von HTML und JavaScript-Syntax zu erzeugen.
-- **CSS**: Für das Design und die visuelle Gestaltung der Seite, um eine attraktive und konsistente Benutzeroberfläche zu gewährleisten.
-- **JavaScript**: Für Interaktivität und dynamische Funktionen auf der Website, um die Benutzererfahrung mit Formularvalidierung, Animationen und Ereignisverarbeitung zu verbessern.
-
-### Wichtige Abhängigkeiten
-
-- express
-- eslint
-- nodemon
-- mongoose
-- morgan
-- multer
-- ejs
+- **Sprachen:** EJS, CSS, JavaScript.
+- **Bemerkenswerte Abhängigkeiten (Node.js):** express, eslint, nodemon, mongoose, morgan und multer.
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Installations- und Nutzungsanleitung
+## Installations- und Nutzungshinweise
 
-### Softwareanforderungen
+### 1. Softwareanforderungen
 
-- **[Git](https://git-scm.com/downloads)** (getestet mit Version 2.47.1.windows.1)
-- **[Visual Studio Code](https://code.visualstudio.com/)** (getestet mit Version 1.99.0)
-- **[MongoDB](https://www.mongodb.com/try/download/community)** (getestet mit Version 8.0.5)
-- **[NoSQLBooster for MongoDB](https://nosqlbooster.com/downloads)** (getestet mit Version 9.1.5)
+- **[Node.js](https://nodejs.org/en/download/)** (getestet mit Version **v22.15.1**)
+- **[Git](https://git-scm.com/downloads)** (getestet mit Version **2.47.1.windows.1**)
+- **[Visual Studio Code](https://code.visualstudio.com/)** (getestet mit Version **1.99.0**)
+- **[MongoDB](https://www.mongodb.com/try/download/community)** (getestet mit Version **8.0.5**)
+- **[NoSQLBooster for MongoDB](https://nosqlbooster.com/downloads)** (getestet mit Version **9.1.5**)
 - **Live Server** (VS Code-Erweiterung, _optional_)
 
-### Klonen des Repositories
-
-Projekt
+### 2. Repository-Klonen
 
 ```bash
 git clone https://github.com/pablo-sch/keepcoding-04-node-backend.git
 ```
 
-Demo
+`>` **Klon-Demo in VSCode ansehen:** 🎥 [Gif Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
 
-![Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
+### 3. Befehle
 
-### Schritte zur Nutzung dieses Projekts
-
-Abhängigkeiten installieren mit:
+**Hinweis:** Stelle sicher, dass MongoDB auf deinem lokalen Gerät läuft.  
+Führe dann folgende Schritte aus:
 
 ```sh
+# Installiere die Projektabhängigkeiten.
 npm install
-```
 
-Beim ersten Einsatz kann die Datenbank mit folgendem Befehl initialisiert werden:
-
-```sh
+# Initialisiere die Datenbank (nur beim ersten Deployment erforderlich).
 npm run initDB
-```
 
-Um im Entwicklungsmodus zu starten und auszuführen, führen Sie folgende Befehle aus:
-
-```sh
+# Starte das Projekt im Entwicklungsmodus.
 npm run dev
 npx nodemon .\bin\www
 ```
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Projektvorschau
+## Projektressourcen
 
-TODO
+`>` **Projektvorschau:** 👀 [Vorschau](preview.md) TODO
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Beiträge und Lizenzen
+## Beiträge und Lizenzierung
 
-Dieses Projekt hat keine externen Beiträge oder Lizenzen.
+Projekt unter MIT-Lizenz. Frei zur Nutzung und Weitergabe mit Namensnennung. Externe Beiträge werden nicht akzeptiert, aber Vorschläge sind willkommen.

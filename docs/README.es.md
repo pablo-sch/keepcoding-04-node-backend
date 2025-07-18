@@ -1,12 +1,8 @@
 # Entrega Proyecto de Backend con Node.js
 
-**Proyectos KeepCoding - Web 18**  
-Consulta la lista completa de repositorios y descripciones en 📁 [repos-kc-web-18.md](https://github.com/pablo-sch/pablo-sch/blob/main/docs/repos-kc-web-18.md)
+`>` **Proyectos KeepCoding - Web 18:** 📁 [repos-kc-web-18.md](https://github.com/pablo-sch/pablo-sch/blob/main/docs/repos-kc-web-18.md)
 
-## Selecciona tu Idioma
-
-- 🇺🇸 [Inglés](README.md)
-- 🇩🇪 [Alemán](README.de.md)
+`>` **Selecciona tu Idioma:** [Inglés](README.md) 🔄 [Alemán](README.de.md)
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
@@ -90,73 +86,55 @@ criterios.
 
 ### Lenguajes
 
-- **EJS**: Motor de plantillas que permite generar vistas dinámicas en el servidor, combinando HTML con sintaxis de JavaScript para renderizar datos.
-- **CSS**: Para el diseño y estilo visual de la página, asegurando una experiencia de usuario atractiva y coherente.
-- **JavaScript**: Para agregar interactividad y características dinámicas al sitio web, mejorando la experiencia del usuario con funcionalidades como validación de formularios, animaciones y manejo de eventos.
-
-### Dependencias Clave
-
-- express
-- eslint
-- nodemon
-- mongoose
-- morgan
-- multer
-- ejs
+- **Lenguajes:** EJS, CSS, JavaScript.
+- **Dependencias a destacar (Node.js):** express, eslint, nodemon, mongoose, morgan y multer.
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
 ## Instrucciones de Instalación y Uso
 
-### Requisitos de Software
+### 1. Requisitos de Software
 
-- **[Git](https://git-scm.com/downloads)** (probado en la versión 2.47.1.windows.1)
-- **[Visual Studio Code](https://code.visualstudio.com/)** (probado en la versión 1.99.0)
-- **[MongoDB](https://www.mongodb.com/try/download/community)** (probado en la versión 8.0.5)
-- **[NoSQLBooster for MongoDB](https://nosqlbooster.com/downloads)** (probado en la versión 9.1.5)
+- **[Node.js](https://nodejs.org/en/download/)** (testeado en la versión **v22.15.1**)
+- **[Git](https://git-scm.com/downloads)** (testeado en la versión **2.47.1.windows.1**)
+- **[Visual Studio Code](https://code.visualstudio.com/)** (testeado en la versión **1.99.0**)
+- **[MongoDB](https://www.mongodb.com/try/download/community)** (probado en la versión **8.0.5**)
+- **[NoSQLBooster for MongoDB](https://nosqlbooster.com/downloads)** (probado en la versión **9.1.5**)
 - **Live Server** (extensión de VS Code, _opcional_)
 
-### Clonación del Repositorio
-
-Poyecto
+### 2. Clonación del Repositorio
 
 ```bash
 git clone https://github.com/pablo-sch/keepcoding-04-node-backend.git
 ```
 
-Demo
+`>` **Ver Demo de Clonanción en VSCode:** 🎥 [Gif Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
 
-![Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
+### 3. Comandos
 
-### Pasos Para Utilizar Este Proyecto
-
-Instalar dependencias con:
+**Nota:** Asegúrate de tener MongoDB en funcionamiento en tu dispositivo local.
+Luego, sigue estos pasos:
 
 ```sh
+# Instala las dependencias del proyecto.
 npm install
-```
 
-En el primer despliegue puede utilizar el siguiente comando para inicializar la base de datos:
-
-```sh
+# Inicializa la base de datos (solo necesario en el primer despliegue).
 npm run initDB
-```
 
-Para activar y desplegar en modo desarrollador ejecute estos comandos:
-
-```sh
+# Ejecuta el proyecto en modo desarrollo.
 npm run dev
 npx nodemon .\bin\www
 ```
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Vista Previa del Proyecto
+## Recursos del Proyecto
 
-TODO
+`>` **Vista Previa del Proyecto:** 👀 [Vista Previa](preview.md) TODO
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
 ## Contribuciones y Licencias
 
-Este proyecto no cuenta con contribuciones externas ni licencias.
+Proyecto bajo licencia MIT. Uso y distribución libres con atribución. No se aceptan contribuciones externas, pero las sugerencias son bienvenidas.

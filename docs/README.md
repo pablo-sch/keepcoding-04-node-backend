@@ -1,12 +1,8 @@
 # Backend Project Submission with Node.js
 
-**KeepCoding Projects - Web 18**  
-See the complete list of repositories and descriptions in 📁 [repos-kc-web-18.md](https://github.com/pablo-sch/pablo-sch/blob/main/docs/repos-kc-web-18.md)
+`>` **KeepCoding Projects - Web 18:** 📁 [repos-kc-web-18.md](https://github.com/pablo-sch/pablo-sch/blob/main/docs/repos-kc-web-18.md)
 
-## Select Your Language
-
-- 🇪🇸 [Spanish](README.es.md)
-- 🇩🇪 [German](README.de.md)
+`>` **Select your Language:** [Spanish](README.es.md) 🔄 [German](README.de.md)
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
@@ -105,73 +101,55 @@ In order to practice and demonstrate the knowledge acquired in virtual classes, 
 
 ### Languages
 
-- **EJS**: Template engine that allows generating dynamic server-rendered views by combining HTML with JavaScript syntax.
-- **CSS**: For the design and visual styling of the page, ensuring an attractive and consistent user experience.
-- **JavaScript**: For adding interactivity and dynamic features to the website, enhancing user experience with form validation, animations, and event handling.
-
-### Key Dependencies
-
-- express
-- eslint
-- nodemon
-- mongoose
-- morgan
-- multer
-- ejs
+- **Languages:** EJS, CSS, JavaScript.
+- **Notable Dependencies (Node.js):** express, eslint, nodemon, mongoose, morgan, and multer.
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
 ## Installation and Usage Instructions
 
-### Software Requirements
+### 1. Software Requirements
 
-- **[Git](https://git-scm.com/downloads)** (tested with version 2.47.1.windows.1)
-- **[Visual Studio Code](https://code.visualstudio.com/)** (tested with version 1.99.0)
-- **[MongoDB](https://www.mongodb.com/try/download/community)** (tested with version 8.0.5)
-- **[NoSQLBooster for MongoDB](https://nosqlbooster.com/downloads)** (tested with version 9.1.5)
+- **[Node.js](https://nodejs.org/en/download/)** (tested on version **v22.15.1**)
+- **[Git](https://git-scm.com/downloads)** (tested on version **2.47.1.windows.1**)
+- **[Visual Studio Code](https://code.visualstudio.com/)** (tested on version **1.99.0**)
+- **[MongoDB](https://www.mongodb.com/try/download/community)** (tested on version **8.0.5**)
+- **[NoSQLBooster for MongoDB](https://nosqlbooster.com/downloads)** (tested on version **9.1.5**)
 - **Live Server** (VS Code extension, _optional_)
 
-### Cloning the Repository
-
-Project
+### 2. Repository Cloning
 
 ```bash
 git clone https://github.com/pablo-sch/keepcoding-04-node-backend.git
 ```
 
-Demo
+`>` **View Cloning Demo in VSCode:** 🎥 [Gif Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
 
-![Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
+### 3. Commands
 
-### Steps to Use This Project
-
-Install dependencies with:
+**Note:** Make sure MongoDB is running on your local machine.  
+Then, follow these steps:
 
 ```sh
+# Install project dependencies.
 npm install
-```
 
-On first deployment, you can initialize the database with:
-
-```sh
+# Initialize the database (only required on first deployment).
 npm run initDB
-```
 
-To start and run in development mode, execute:
-
-```sh
+# Run the project in development mode.
 npm run dev
 npx nodemon .\bin\www
 ```
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Project Preview
+## Project Resources
 
-TODO
+`>` **Project Preview:** 👀 [Preview](preview.md)
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Contributions and Licenses
+## Contributions and Licensing
 
-This project has no external contributions or licenses.
+Project licensed under the MIT License. Free to use and distribute with attribution. External contributions are not accepted, but suggestions are welcome.
